@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: 'Roboto';
+}   
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 43px !important;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-right: 40px !important;
+    padding-left: 10px !important;
+}
+
